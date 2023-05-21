@@ -69,6 +69,7 @@
             <table class="table table-hover table-striped">
                 <thead>
                     <th>课程编号</th>
+                    <th>封面</th>
                     <th>课程名字</th>
                     <th>课程时长</th>
                     <th>开课学院</th>
@@ -80,6 +81,7 @@
                 <c:forEach var="course" items="${requestScope.get('list')}">
                     <tr>
                         <td>${course.getCourseId()}</td>
+                        <td><img src="https://img1.baidu.com/it/u=3945511683,2177287662&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500" width="100"></td>
                         <td>${course.getName()}</td>
                         <td>${course.getHours()}</td>
                         <td>${course.getSid()}</td>

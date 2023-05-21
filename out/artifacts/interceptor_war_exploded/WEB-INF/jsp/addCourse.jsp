@@ -47,6 +47,11 @@
             <label>开课学院：</label>
             <input type="text" name="sid" class="form-control" required>
         </div>
+        <div class="form-group">
+            <label>封面：</label>
+            <input type="text" name="picPath"><input type="file" name="file" value="请选择图片" class="form-control">
+<%--            <input type="text" name="sid" class="form-control" required>--%>
+        </div>
         <input type="submit" value="添加">
     </form>
 
